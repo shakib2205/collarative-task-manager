@@ -254,7 +254,7 @@ const TaskList = () => {
               <tr key={index}>
                 <td>{index + 1}</td>
                 <td>
-                  {/* <img className="w-5 h-5" src={user?.url} alt="" /> */}
+                  <img className="w-5 h-5 rounded-full" src={user?.url} alt="" />
                 </td>
                 <td>{user?.username}</td>
                 <td>{user?.email}</td>
